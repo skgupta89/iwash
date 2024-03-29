@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: var(--primary-text-color);
+  background-color:var(--gray) ;
+}
+
+:root {
+  --primary-color:#E81C2E;
+  --primary-text-color: #19191B;  ;
+  --secondary-text-color: #577592;
+  --accent-color: #229ded;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+  /*  */
+
+  --black: #19191B;
+    --black-darker: #000000;
+    --black-text: rgba(25, 25, 27, 1);
+    --black-light: rgba(25, 25, 27, .7);
+    --gray: #F2F2F2;
+    --gray-lighter: rgba(242, 242, 242, .5);
+    --white: #FFFFFF;
+    --white-text: rgba(255, 255, 255, .75);
+    --main: #e81c2e;
+    --main-darker: #ca0010;
+    --main-lighter: rgba(232, 28, 46, .5);
+    --second: #CCB686;
+    --red: #e81c2e;
+    --geen: #e81c2e;
+    --font-main: 'Ubuntu';
+    --font-headers: 'Barlow Semi Condensed';
+    --font-subheaders: 'Barlow Semi Condensed';
+}
+
+.container {
+  max-width:991px;
+  margin: 0 auto;
+  padding-inline: var(--padding-inline-section);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.cardImg{
+  height: 100px;
+  width: 100px;
+}

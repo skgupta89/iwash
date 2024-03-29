@@ -1,0 +1,5 @@
+.nav{
+    border-bottom: 1px solid var(--main);
+    padding: 5px;
+    max-height: 80px;
+}
